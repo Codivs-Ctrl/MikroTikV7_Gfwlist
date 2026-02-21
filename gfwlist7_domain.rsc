@@ -1,4 +1,4 @@
-### --- Created at: 2026-02-20 20:59:34 --- ###
+### --- Created at: 2026-02-21 20:55:14 --- ###
 :log info "Starting to update MikroTik v7 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
@@ -137,6 +137,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=akamaized.net } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=akiba-online.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=akiba-web.com } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=akile.io } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=akinator.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=akow.org } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=alabout.com } on-error={}
@@ -661,6 +662,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=civitai.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=cixiaoya.club } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=ck101.com } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=clashverge.dev } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=classicalguitarblog.net } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=claude.ai } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=clearsurance.com } on-error={}
@@ -2194,6 +2196,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=mediafreakcity.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=mediawiki.org } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=medium.com } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=meee.com.tw } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=meetup.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=mega.co.nz } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=mega.io } on-error={}
@@ -2476,6 +2479,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nuuvem.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nvdst.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nvtongzhisheng.org } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nxtrace.org } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nyaa.eu } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nyaa.si } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=nybooks.com } on-error={}
@@ -2538,6 +2542,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=ooni.io } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=ooni.org } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=openai.com } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=opencritic.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=opendemocracy.net } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=openid.net } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=openleaks.org } on-error={}

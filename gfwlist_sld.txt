@@ -671,6 +671,7 @@ clipconverter.cc
 cloudcone.com
 cloudflare-dns.com
 cloudflare-ipfs.com
+cloudflare.com
 cloudflarestatus.com
 cloudfunctions.net
 club1069.com
@@ -1470,6 +1471,7 @@ google.com.vn
 google.cv
 google.cz
 google.de
+google.dev
 google.dk
 google.dm
 google.dz
@@ -1875,6 +1877,7 @@ internetfreedom.org
 internetpopculture.com
 interseclab.org
 inthenameofconfuciusmovie.com
+investing.com
 invidio.us
 inxian.com
 ipdefenseforum.com

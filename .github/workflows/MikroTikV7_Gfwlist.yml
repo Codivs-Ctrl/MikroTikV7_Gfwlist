@@ -3,7 +3,7 @@ name: MikroTikV7_Gfwlist_Scripts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 20 * * *'
+    - cron: '20 20 * * 3'
 
 permissions:
   contents: write

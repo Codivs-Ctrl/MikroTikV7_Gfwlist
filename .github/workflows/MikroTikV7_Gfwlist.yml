@@ -3,10 +3,14 @@ name: MikroTikV7_Gfwlist_Scripts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 20 * * 3'
+    - cron: '20 20 * * 3' # 每周三 20:20 UTC
 
 permissions:
   contents: write
+
+concurrency:
+  group: mikrotikv7-gfwlist-update
+  cancel-in-progress: true
 
 jobs:
   update-gfwlist:
@@ -14,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -31,8 +37,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes
+      - name: Commit changes locally
         run: |
           git add gfwlist_sld.txt gfwlist7_domain.rsc
-          git commit -m "Auto update GFWList domains [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/CodiFelix/MikroTikV7_Gfwlist.git HEAD:main
+          git diff --staged --quiet && exit 0
+          git commit -m "Auto update GFWList domains [skip ci]"
+
+      # 把本地最新提交推到 CodiFelix/MikroTikV7_Gfwlist 的 main ��支
+      - name: Push to target repo (CodiFelix/MikroTikV7_Gfwlist)
+        env:
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          if [ -z "$PUSH_TOKEN" ]; then
+            echo "Missing secret PUSH_TOKEN"
+            exit 1
+          fi
+
+          # 新建一个远端指向目标仓库
+          git remote remove target 2>/dev/null || true
+          git remote add target "https://x-access-token:${PUSH_TOKEN}@github.com/CodiFelix/MikroTikV7_Gfwlist.git"
+
+          # 推送当前 HEAD 到目标仓库 main
+          git push target HEAD:main

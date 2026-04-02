@@ -37,25 +37,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit changes locally
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         run: |
           git add gfwlist_sld.txt gfwlist7_domain.rsc
+
+          # 没有变更就退出（避免空提交）
           git diff --staged --quiet && exit 0
+
           git commit -m "Auto update GFWList domains [skip ci]"
 
-      # 把本地最新提交推到 CodiFelix/MikroTikV7_Gfwlist 的 main ��支
-      - name: Push to target repo (CodiFelix/MikroTikV7_Gfwlist)
-        env:
-          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
-        run: |
-          if [ -z "$PUSH_TOKEN" ]; then
-            echo "Missing secret PUSH_TOKEN"
-            exit 1
-          fi
+          # 先同步远端，避免 non-fast-forward
+          git pull --rebase origin "${GITHUB_REF_NAME}"
 
-          # 新建一个远端指向目标仓库
-          git remote remove target 2>/dev/null || true
-          git remote add target "https://x-access-token:${PUSH_TOKEN}@github.com/CodiFelix/MikroTikV7_Gfwlist.git"
-
-          # 推送当前 HEAD 到目标仓库 main
-          git push target HEAD:main
+          # 推回当前分支（main/master）
+          git push origin HEAD:"${GITHUB_REF_NAME}"

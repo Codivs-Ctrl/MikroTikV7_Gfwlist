@@ -259,6 +259,7 @@ asianews.it
 asianfanfics.com
 asiansexdiary.com
 asiaone.com
+asiasociety.org
 ask.com
 askstudent.com
 askynz.net
@@ -282,6 +283,7 @@ avdb.tv
 avg.com
 avgle.com
 avidemux.org
+avistaz.to
 avmo.pw
 avmoo.pw
 avoision.com
@@ -335,6 +337,7 @@ beijing1989.com
 beijing2022.art
 beijingspring.com
 bell.wiki
+bellingcat.com
 berlinerbericht.de
 berlintwitterwall.com
 bestvpn.com
@@ -971,6 +974,7 @@ eic-av.com
 eireinikotaerukai.com
 eksisozluk.com
 elconfidencial.com
+element.io
 elgoog.im
 elpais.com
 emule-ed2k.com
@@ -2053,6 +2057,7 @@ lama.com.tw
 lamayeshe.com
 lamnia.co.uk
 landofhope.tv
+lantern.io
 laogai.org
 laogairesearch.org
 laqingdan.net
@@ -2851,6 +2856,7 @@ rateyourmusic.com
 rationalwiki.org
 rawgit.com
 rawgithub.com
+rawstory.com
 rcinet.ca
 rd.com
 reabble.com
@@ -2862,6 +2868,7 @@ realcourage.org
 realitykings.com
 reason.com
 recaptcha.net
+recordedfuture.com
 recoveryversion.com.tw
 recoveryversion.org
 red-lang.org
@@ -2899,6 +2906,7 @@ rixcloud.com
 rixcloud.us
 rlwlw.com
 rmbl.ws
+roblox.com
 robustnessiskey.com
 rocket-inc.net
 rocket.chat
@@ -3108,7 +3116,6 @@ southmongolia.org
 southnews.com.tw
 sowers.org.hk
 soylent.com
-soylentnews.org
 spacex.com
 spankbang.com
 sparkpool.com
@@ -3316,6 +3323,7 @@ thetvdb.com
 thewgo.org
 thewirechina.com
 theync.com
+thinkchina.sg
 thinkgeek.com
 thinkingtaiwan.com
 thinkwithgoogle.com

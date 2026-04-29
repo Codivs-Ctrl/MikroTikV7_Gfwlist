@@ -1,4 +1,4 @@
-### --- Created at: 2026-04-22 21:10:21 --- ###
+### --- Created at: 2026-04-29 21:19:19 --- ###
 :log info "Starting to update MikroTik v7 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
@@ -3262,6 +3262,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=tbssqh.org } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=tdesktop.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=teachparentstech.org } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=techbang.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=technews.tw } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=techviz.net } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=teck.in } on-error={}
@@ -3605,6 +3606,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=upmedia.mg } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=upornia.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=uproxy.org } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=upsangel.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=uptodown.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=uraban.me } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=urbandictionary.com } on-error={}

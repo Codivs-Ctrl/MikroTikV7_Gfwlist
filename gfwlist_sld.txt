@@ -1052,6 +1052,7 @@ eyny.com
 f-droid.org
 f2pool.com
 f8.com
+f95zone.to
 facebook.com
 facebook.de
 facebook.design
@@ -1245,6 +1246,7 @@ fxcm-chinese.com
 fxnetworks.com
 g-area.org
 g-queen.com
+g.ai
 g.co
 g0v.social
 g6hentai.com
@@ -2090,6 +2092,7 @@ leisurepro.com
 lematin.ch
 lemonde.fr
 lenwhite.com
+leonardo.ai
 lesoir.be
 letscorp.net
 lexica.art
@@ -2872,6 +2875,7 @@ raizoji.or.jp
 rakuten.co.jp
 ramcity.com.au
 ranxiang.com
+raphael.app
 rapidmoviez.com
 rapidvpn.com
 rarbgprx.org
@@ -2952,6 +2956,7 @@ rthk.org.hk
 rti.org.tw
 rti.tw
 rts.ch
+rule34.us
 rule34.xxx
 rule34video.com
 rumble.com
@@ -3052,6 +3057,7 @@ shutterstock.com
 shwchurch.org
 shwchurch3.com
 sidelinesnews.com
+sider.ai
 signal.org
 silvergatebank.com
 simbolostwitter.com
@@ -3130,6 +3136,7 @@ sorting-algorithms.com
 sos.org
 sosad.fun
 sosreader.com
+sotwe.com
 soubory.com
 soulcaliburhentai.net
 soundcloud.com
@@ -4073,6 +4080,7 @@ zenmate.com
 zerohedge.com
 zeronet.io
 zhangtianliang.com
+zhangzhehan.net
 zhanlve.org
 zhengjian.org
 zhengwunet.org

@@ -27,6 +27,7 @@
 2047.one
 2049bbs.xyz
 233abc.com
+24hbook.com
 24hrs.ca
 32red.com
 36rain.com
@@ -917,6 +918,7 @@ douchi.space
 dougscripts.com
 doujincafe.com
 dowjones.com
+dowjones.io
 dpool.top
 dpp.org.tw
 dpr.info
@@ -2202,6 +2204,7 @@ martinoei.com
 martsangkagyuofficial.org
 marxist.net
 marxists.org
+mas.to
 mash.to
 mastodon.cloud
 mastodon.host
@@ -2347,6 +2350,7 @@ mosavi.io
 motherless.com
 movements.org
 moviefap.com
+mozilla.ai
 mozilla.org
 moztw.org
 mpettis.com
@@ -2415,6 +2419,7 @@ ncol.com
 ndi.org
 nekoslovakia.net
 neo-miracle.com
+neodb.social
 neoforged.net
 neowin.net
 nephobox.com

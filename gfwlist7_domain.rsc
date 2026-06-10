@@ -1,4 +1,4 @@
-### --- Created at: 2026-06-03 21:26:44 --- ###
+### --- Created at: 2026-06-10 21:10:39 --- ###
 :log info "Starting to update MikroTik v7 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
@@ -2632,7 +2632,6 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=pacom.mil } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=pacopacomama.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=page.link } on-error={}
-:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=pages.dev } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=paimon.moe } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=palworldgame.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=pancakeswap.finance } on-error={}
@@ -3251,6 +3250,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=surfeasy.com.au } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=surfshark.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=surrenderat20.net } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=suyingtv.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=swagbucks.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=swapspace.co } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=swissinfo.ch } on-error={}
@@ -3926,6 +3926,7 @@
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=wowporn.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=woyaolian.org } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=wp.com } on-error={}
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=wplace.live } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=wpoforum.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=writesonic.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=wsj.com } on-error={}

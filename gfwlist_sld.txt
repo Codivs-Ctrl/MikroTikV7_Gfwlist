@@ -114,6 +114,7 @@ advertisercommunity.com
 aei.org
 aenhancers.com
 aex.com
+af.edu
 af.mil
 afantibbs.com
 afr.com
@@ -759,6 +760,7 @@ crazypool.org
 crazyshit.com
 crbug.com
 crchina.org
+creader.com
 creaders.net
 creativelab5.com
 cristyli.com
@@ -1053,6 +1055,7 @@ expecthim.com
 expekt.com
 exploader.net
 expofutures.com
+expressnews.com
 expressvpn.com
 exrates.me
 extmatrix.com
@@ -1302,6 +1305,7 @@ gaoming.net
 gaopi.net
 gartlive.com
 garudalinux.org
+gate.com
 gate.io
 gatecoin.com
 gather.com
@@ -1677,6 +1681,7 @@ gtv.org
 gtv1.org
 gu-chu-sum.org
 guaguass.com
+guangming.com.my
 guishan.org
 gumroad.com
 gunsamerica.com
@@ -1767,6 +1772,7 @@ hkgolden.com
 hkgpao.com
 hklts.org.hk
 hkmap.live
+hkong.hk
 hkopentv.com
 hkpeanut.com
 hkreporter.com
@@ -2066,6 +2072,7 @@ kenengba.com
 kepard.com
 kex.com
 keycdn.com
+kfor.com
 khatrimaza.org
 kichiku-doujinko.com
 kik.com
@@ -2319,6 +2326,7 @@ mfxmedia.com
 mgoon.com
 mgstage.com
 mh4u.org
+mhwindow.org
 mi.com
 microsoft.com
 microvpn.com
@@ -2706,6 +2714,7 @@ pbs.org
 pbworks.com
 pbxes.com
 pbxes.org
+pcgamesn.com
 pcgamestorrents.com
 pcij.org
 pcloud.com
@@ -2725,6 +2734,7 @@ peoplenews.tw
 peopo.org
 perfect-privacy.com
 periscope.tv
+perma.cc
 perplexity.ai
 pewresearch.org
 phayul.com
@@ -2980,6 +2990,7 @@ rentry.co
 renyurenquan.org
 resilio.com
 resistchina.org
+restofworld.org
 retweetrank.com
 reuters.com
 reutersmedia.net
@@ -3215,6 +3226,7 @@ southmongolia.org
 southnews.com.tw
 sowers.org.hk
 soylent.com
+spaceforce.mil
 spacex.com
 spankbang.com
 sparkpool.com
@@ -3299,6 +3311,7 @@ supchina.com
 superpages.com
 supervpn.net
 superzooi.com
+supremecourt.gov
 suprememastertv.com
 surfeasy.com
 surfeasy.com.au
@@ -3413,6 +3426,7 @@ thehansindia.com
 thehindu.com
 thehun.net
 theinitium.com
+theintercept.com
 thenewslens.com
 thepiratebay.org
 theporndude.com
@@ -3566,6 +3580,7 @@ tritondigital.com
 tronscan.org
 trouw.nl
 trt.net.tr
+trtworld.com
 truebuddha-md.org
 trustwallet.com
 truthsocial.com
@@ -3659,6 +3674,7 @@ twitturk.com
 twitturly.com
 twkan.com
 twreporter.org
+twstalker.com
 twt.tl
 twtkr.com
 twttr.com
@@ -3867,6 +3883,7 @@ wanz-factory.com
 warroom.org
 waselpro.com
 washingtonpost.com
+washingtontimes.com
 watchinese.com
 watchmygf.net
 watchout.tw
@@ -4057,6 +4074,7 @@ xskywalker.com
 xt.com
 xt.pub
 xtube.com
+xuan.com.my
 xuchao.net
 xuchao.org
 xuehua.us

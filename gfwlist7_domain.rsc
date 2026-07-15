@@ -1,4 +1,4 @@
-### --- Created at: 2026-07-08 20:43:37 --- ###
+### --- Created at: 2026-07-15 20:38:56 --- ###
 :log info "Starting to update MikroTik v7 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
